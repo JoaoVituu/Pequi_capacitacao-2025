@@ -1,4 +1,4 @@
-#  ![alt text](image.png) Instalação Docker
+#  🐳 Instalação Docker
 
 ## Configurar o repositório apt do Docker
 ```bash
