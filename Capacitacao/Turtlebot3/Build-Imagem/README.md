@@ -7,6 +7,8 @@ sudo docker build -f turtle_capacitacao .
 ```
 obs: tambem pode se buildar com o caminho para imagem no local de "."
 
+
+
 Para listar as imagens no dispositivo:
 ```bash
 sudo docker images
