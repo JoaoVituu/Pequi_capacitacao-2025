@@ -1,6 +1,6 @@
 #  🐳 Instalação Docker
 
-## Configurar o repositório apt do Docker
+## 🔧 Configurar o repositório apt do Docker
 ```bash
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -14,11 +14,11 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
-## Instalar a versão mais recente
+## ⬇️ Instalar a versão mais recente
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-## Teste executando a imagem hello-world
+## ✅ Teste executando a imagem hello-world
 ```bash
 sudo docker run hello-world
 ```
