@@ -20,3 +20,5 @@ Dowload do arquivo .deb no repositório do shiftkey : (https://github.com/shiftk
 ```bash
 gh auth login
 ```
+
+(./images/Autenticação.png)
