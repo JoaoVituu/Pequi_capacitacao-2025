@@ -40,8 +40,19 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 #### Modelo Waflle:
-![Mundo Padrão com o Modelo Waffle](./images/VazioWaffle.png)
+![Mundo Padrão com o Modelo Waffle](./images/PadraoWaffle.png)
 ##### Modelo Waflle_pi:
-![Mundo Padrão com o Modelo Waffle_pi](./images/VazioWaffle_pi.png)
+![Mundo Padrão com o Modelo Waffle_pi](./images/PadraoWaffle_pi.png)
 #### Modelo Burger:
-![Mundo Padrão com o Modelo Burger](./images/VazioBurger.png)
+![Mundo Padrão com o Modelo Burger](./images/PadraoBurger.png)
+
+### Mundo Casa
+```bash 
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
+#### Modelo Waflle:
+![Mundo Casa com o Modelo Waffle](./images/PadraoWaffle.png)
+##### Modelo Waflle_pi:
+![Mundo Casa com o Modelo Waffle_pi](./images/PadraoWaffle_pi.png)
+#### Modelo Burger:
+![Mundo Casa com o Modelo Burger](./images/PadraoBurger.png)
