@@ -17,3 +17,6 @@
 Dowload do arquivo .deb no repositório do shiftkey : (https://github.com/shiftkey/desktop)
 
 ## Autenticação
+```bash
+gh auth login
+```
