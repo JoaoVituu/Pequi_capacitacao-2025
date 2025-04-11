@@ -53,4 +53,4 @@ ERRO!
 ros2 launch turtlebot3_fake_node turtlebot3_fake_node.launch.py
 ```
 #### Modelo Burger:
-![Fake Node]()
+![Fake Node](./images/FakeNode.png)
