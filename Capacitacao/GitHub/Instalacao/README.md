@@ -1,6 +1,6 @@
-# 🔧 Instalação e Autenticação GitHub
+# 🚀 Instalação e Autenticação GitHub
 
-## Instalação 
+## 🔧 Instalação 
 
 ### GitHub CLI
 ```bash
@@ -20,7 +20,7 @@ Dowload do arquivo .deb no repositório do shiftkey : (https://github.com/shiftk
 
 ![GitHub Desktop](../Instalacao/images/GitHub%20Desktop.png)
 
-## Autenticação
+## ✔️ Autenticação
 ```bash
 gh auth login
 ```
