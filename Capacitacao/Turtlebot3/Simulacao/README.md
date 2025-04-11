@@ -9,5 +9,6 @@ mkdir -p turtlebot_ros2/src
 
 ## Iniciando o conteiner do Turtlebot
 
+```bash
+sudo ./run.sh turtle_capacitacao
 ```
-./run.sh
