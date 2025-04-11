@@ -12,3 +12,4 @@ mkdir -p turtlebot_ros2/src
 ```bash
 sudo ./run.sh turtle_capacitacao
 ```
+![Conteiner Iniciado](../Simulacao/images/IniciandoDocker.png)
