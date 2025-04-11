@@ -28,10 +28,6 @@ export TURTLEBOT3_MODEL=burger  # Opções: burger, waffle, waffle_pi
 ```bash
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
-#### Modelo Waflle:
-![Mundo Vazio com o Modelo Waffle](./images/VazioWaffle.png)
-#### Modelo Waflle_pi:
-![Mundo Vazio com o Modelo Waffle_pi](./images/VazioWaffle_pi.png)
 #### Modelo Burger:
 ![Mundo Vazio com o Modelo Burger](./images/VazioBurger.png)
 
@@ -39,10 +35,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
-#### Modelo Waflle:
-![Mundo Padrão com o Modelo Waffle](./images/PadraoWaffle.png)
-##### Modelo Waflle_pi:
-![Mundo Padrão com o Modelo Waffle_pi](./images/PadraoWaffle_pi.png)
+
 #### Modelo Burger:
 ![Mundo Padrão com o Modelo Burger](./images/PadraoBurger.png)
 
@@ -50,9 +43,6 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```bash 
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
-#### Modelo Waflle:
-![Mundo Casa com o Modelo Waffle](./images/PadraoWaffle.png)
-##### Modelo Waflle_pi:
-![Mundo Casa com o Modelo Waffle_pi](./images/PadraoWaffle_pi.png)
+
 #### Modelo Burger:
 ![Mundo Casa com o Modelo Burger](./images/PadraoBurger.png)
