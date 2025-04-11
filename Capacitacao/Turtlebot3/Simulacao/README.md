@@ -45,4 +45,12 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 
 #### Modelo Burger:
-![Mundo Casa com o Modelo Burger](./images/PadraoBurger.png)
+ERRO!
+![Mundo Casa com o Modelo Burger](./images/CasaBurger.png)
+
+## Simulação com Fake Node
+```bash
+ros2 launch turtlebot3_fake_node turtlebot3_fake_node.launch.py
+```
+#### Modelo Burger:
+![Fake Node]()
