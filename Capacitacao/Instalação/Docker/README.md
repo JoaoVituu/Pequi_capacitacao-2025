@@ -23,4 +23,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-![Teste Docker](../Instalacao/images/Teste%20Docker.png)
+![Teste Docker](../Docker/images/Teste%20Docker.png)

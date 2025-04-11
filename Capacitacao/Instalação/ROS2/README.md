@@ -71,4 +71,4 @@ ros2 run demo_nodes_cpp talker
 source /opt/ros/jazzy/setup.bash
 ros2 run demo_nodes_py listener
 ```
-![Teste ROS2](../Instalacao/images/TesteROS2.png)
+![Teste ROS2](../ROS2/images/TesteROS2.png)

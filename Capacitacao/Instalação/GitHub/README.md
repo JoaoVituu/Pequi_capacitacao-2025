@@ -13,16 +13,16 @@
 	&& sudo apt update \
 	&& sudo apt install gh -y
 ```
-![GitHub CLI](../Instalacao/images/GitHub%20CLI.png)
+![GitHub CLI](../GitHub/images/GitHub%20CLI.png)
 
 ### GithHub DeskTop
 Dowload do arquivo .deb no repositório do shiftkey : (https://github.com/shiftkey/desktop)
 
-![GitHub Desktop](../Instalacao/images/GitHub%20Desktop.png)
+![GitHub Desktop](../GitHub/images/GitHub%20Desktop.png)
 
 ## ✔️ Autenticação
 ```bash
 gh auth login
 ```
 
-![Autencicaoção GitHub](../Instalacao/images/Autenticacao.png)
+![Autencicaoção GitHub](../GitHub/images/Autenticacao.png)
