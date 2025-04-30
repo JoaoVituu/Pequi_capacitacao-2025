@@ -1,27 +1,23 @@
-# Usar imagem base do ROS 2 Jazzy
-FROM ros:jazzy-ros-base
+# Imagem base
+FROM osrf/ros:humble-desktop-full
 
-# Instalar dependências
-RUN apt-get update && apt-get install -y \
-    ros-jazzy-turtlesim \
-    ros-jazzy-teleop-twist-keyboard \
-    && rm -rf /var/lib/apt/lists/*
+# Configuração do ambiente
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc && \
+    echo "export ROS_DOMAIN_ID=20" >> ~/.bashrc
 
-# Configurar o diretório de trabalho no container
+# Copiar arquivos locais pro container
+COPY ../workspace /workspace
+COPY ../bag_files /workspace/bag_files
+COPY ../scripts /workspace/scripts
+COPY ../param /workspace/param
+
+# Definir diretório de trabalho
 WORKDIR /workspace
 
-# Copiar o código fonte do projeto para dentro do container
-COPY workspace /workspace
-
-# Instalar dependências do workspace
-RUN . /opt/ros/jazzy/setup.sh && \
+# Rodar comandos de configuração, build, etc.
+RUN chmod +x /workspace/scripts/run.sh && \
+    . /opt/ros/humble/setup.sh && \
     colcon build --symlink-install
 
-# Fonte do ambiente ROS2
-SHELL ["/bin/bash", "-c"]
-
-# Rodar somente o node visual do turtlesim
-CMD ["bash", "-c", "\
-  source /opt/ros/jazzy/setup.bash && \
-  source /workspace/install/setup.bash && \
-  ros2 run turtlesim turtlesim_node"]
+# Definir comando padrão ao rodar o container
+CMD ["bash", "-c", "source /opt/ros/humble/setup.bash && source /workspace/install/setup.bash && /workspace/scripts/run.sh"]
