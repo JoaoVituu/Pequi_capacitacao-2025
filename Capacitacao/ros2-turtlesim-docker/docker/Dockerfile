@@ -9,7 +9,7 @@ RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc && \
 COPY ../workspace /workspace
 COPY ../bag_files /workspace/bag_files
 COPY ../scripts /workspace/scripts
-COPY ../param /workspace/param
+COPY ../turtlesim.yaml /workspace/turtlesim.yaml
 
 # Definir diretório de trabalho
 WORKDIR /workspace
